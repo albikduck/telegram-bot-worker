@@ -2,7 +2,7 @@ addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
 
-const TELEGRAM_TOKEN = '8562654293:AAGBUhQvytdA-sICSp091PtXVa1OxpKljrE'; // вставь токен бота
+const TELEGRAM_TOKEN = '8272096441:AAH9v-kZskTBw_wGoAPvDVyTjSVl44hzHZ8'; // вставь токен бота
 const ADMIN_ID = '5142030265';     // вставь свой Telegram ID
 
 async function handleRequest(request) {
